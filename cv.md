@@ -39,3 +39,12 @@ function myFunction(a, b) {
     return a * b;
 }
 ```
+### Courses:
+* Diploma of Professional Retraining - ***Web Development Program*** (256 h./ completed)
+* ***HTML, CSS, JS Tutorials*** on the [W3schools](https://www.w3schools.com) (in progress)
+* RS Schools Course ***"JavaScript/Front-end. Stage 0"*** (in progress)
+
+### Languages:
+* English - ***B2***
+* German - ***B2***
+* Russian - ***Native***
