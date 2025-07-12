@@ -20,6 +20,32 @@ I am 38 years old. By profession I am a linguistic teacher (English/German). I h
 * an agricultural worker abroad (Scotland/England).
 
 I am currently a freelancer and continue to study Web Development (two years ago I completed a 3-month Web Development program).
+### Skills and Proficiency:
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* VS Code 
+* Photoshop, Illustrator, Figma, After Effects, Blender
+### Code Example:
+#### From Codewars:
+
+```
+let x = myFunction(4, 3);
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(a, b) {
+    return a * b;
+}
+```
+### Courses:
+* Diploma of Professional Retraining - ***Web Development Program*** (256 h./ completed)
+* ***HTML, CSS, JS Tutorials*** on the [W3schools](https://www.w3schools.com) (in progress)
+* RS Schools Course ***"JavaScript/Front-end. Stage 0"*** (in progress)
+
+### Languages:
+* English - ***B2***
+* German - ***B2***
+* Russian - ***Native***
 
 
 
