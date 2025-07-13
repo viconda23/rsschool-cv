@@ -209,10 +209,7 @@ main {
 
 }
 
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .fontlower {
   font-size: 17px;
