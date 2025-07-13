@@ -17,6 +17,9 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  border: 10px solid salmon;
+  
+  
 }
 
 .nav-list {
@@ -59,32 +62,33 @@ html {
 }
 
 header {
-  border: 7px solid blueviolet;
+  /* border: 7px solid blueviolet; */
   margin: 0 40px;
 }
 
 .headerblock1 {
-  border: 7px solid fuchsia;
+  /* border: 7px solid fuchsia; */
   background-color: #f72f2f;
 }
 
 .headerblock2 {
-  border: 9px solid gold;
+  /* border: 9px solid gold; */
+  background-color: aqua;
   
 }
 
 
 .divider {
-  border: 8px solid green;
+  /* border: 8px solid green; */
   display: flex;
 
   
 }
 
 .photoposition {
-  border: 9px solid hotpink;
+  /* border: 9px solid hotpink; */
   position: relative;
-  width: 50%;
+  width: 40%;
 
 }
 
@@ -92,29 +96,41 @@ header {
   border-radius: 100px;
   
   position: relative;
-  left: 50%;
+  left: 40%;
   
 }
 
 .h1h2classes {
   display: block;
-  border: 9px solid gray;
+  /* border: 9px solid gray; */
+  width: 60%;
+  position: relative;
+  
 }
 
 .h1class {
-  border: 2px solid teal;
-  display: inline;
-  position: relative;
-  left: 10%;
-  font-size: 25px;
-
+  /* border: 2px solid teal; */
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 15px;
+  text-align: center;
+  
+  
+  
 }
 
 .h2class {
   border: 2px solid lawngreen;
-  display: inline;
-  position: relative;
-  right: 10%%;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+  
+  
+  
+  
 
 }
 
@@ -156,29 +172,34 @@ main {
 
 
 footer {
-  border: 5px solid red;
-  margin: 0 40px;  
-  height: 100%;
+  /* border: 5px solid red; */
+  margin: 0 40px;
+  
+  
+
   
 }
 
-.footer__item1 {
-  display: inline;
-  /* border: 5px solid green; */
-  position: absolute;
-  left: 10%;
-
+.bgcolor {
+  background-color: #f72f2f;
+  flex-direction: row;
+  display: flex;
+  /* border: 10px solid royalblue; */
   
 
+.footer__item1 {
+  /* border: 10px solid gold; */
+  width: 33%;
+  text-align: center;
+  padding-top: 9px;
+  
 }
 
 .footer__item2 {
-  display: inline;
-  /* border: 5px solid green; */
-  position: absolute;
-  left: 30%;
+  /* border: 10px solid blue; */
+  width: 33%;
+  text-align: center;
   
-
 }
 
 
@@ -186,18 +207,19 @@ footer {
 
 .footer__signage {
   
-  align-items: center;
+  /* align-items: center; */
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
+  /* border: 10px solid green; */
+  width: 33%;
+  text-align: center;
+  padding-top: 40px;
   
-  display: inline;
   
-  position: absolute;
-  right:30%;
+ 
 
 }
 
-.bgcolor {
-  background-color: #f72f2f;
-}
+
+
