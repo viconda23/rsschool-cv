@@ -17,7 +17,8 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  border: 10px solid salmon;
+  background-color: rgb(241, 214, 218);
+  /* border: 10px solid salmon; */
   
   
 }
@@ -69,11 +70,13 @@ header {
 .headerblock1 {
   /* border: 7px solid fuchsia; */
   background-color: #f72f2f;
+  margin-top: 0;
+  padding: 15px;
 }
 
 .headerblock2 {
   /* border: 9px solid gold; */
-  background-color: aqua;
+  /* background-color: aqua; */
   
 }
 
@@ -81,6 +84,7 @@ header {
 .divider {
   /* border: 8px solid green; */
   display: flex;
+  background-color: rgb(207, 141, 141);
 
   
 }
@@ -93,10 +97,11 @@ header {
 }
 
 .imgborder {
-  border-radius: 100px;
+  /* border-radius: 150px; */
+  padding: 10px;
   
   position: relative;
-  left: 40%;
+  left: 60%;
   
 }
 
@@ -121,7 +126,7 @@ header {
 }
 
 .h2class {
-  border: 2px solid lawngreen;
+  /* border: 2px solid lawngreen; */
   position: absolute;
   bottom: 20px;
   left: 10px;
@@ -135,10 +140,74 @@ header {
 }
 
 main {
-  border: 5px solid yellowgreen;
+  /* border: 5px solid yellowgreen; */
   margin: 0 40px;
 }
 
+.contactssummary {
+  display: flex;
+}
+
+.section1 {
+  display: inline;
+  width: 50%;
+  /* border: 2px solid lawngreen; */
+  padding: 20px;
+
+}
+
+.section2 {
+  display: inline;
+  /* border: 2px solid lawngreen; */
+  padding: 20px;
+  width: 50%;
+  background-color:  rgb(235, 197, 197);
+
+}
+
+.skillscode {
+  display: flex;
+
+}
+
+.section3 {
+  display: inline;
+  width: 50%;
+  /* border: 2px solid lawngreen; */
+  padding: 20px;
+  background-color: rgb(235, 197, 197) ;
+
+}
+
+.section4 {
+  display: inline;
+  width: 50%;
+  /* border: 2px solid lawngreen; */
+  padding: 20px;
+
+}
+
+.educationlanguages {
+  display: flex;
+
+}
+
+.section5 {
+  display: inline;
+  width: 50%;
+  /* border: 2px solid lawngreen; */
+  padding: 20px;
+
+}
+
+.section6 {
+  display: inline;
+  width: 50%;
+  /* border: 2px solid lawngreen; */
+  padding: 20px;
+  background-color: rgb(235, 197, 197);
+
+}
 
 .main-container {
   display: flex;
