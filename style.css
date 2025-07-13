@@ -102,6 +102,16 @@ main {
   margin: 0 40px;
 }
 
+.colorscetiontitle {
+  color:  #f72f2f;
+  font-weight: bold;
+}
+
+.contactsnames {
+  list-style: none;
+}
+
+
 footer {
   border: 1px solid red;
   margin: 0 40px;
