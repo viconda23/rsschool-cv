@@ -12,8 +12,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-
 }
 
 .container {
@@ -46,6 +44,7 @@ body {
   text-decoration: none;
   transition: color 0.5s;
 }
+
 .nav-item a:hover {
   color: #4d2323;
 }
@@ -60,50 +59,94 @@ html {
 }
 
 header {
-  border: 1px solid red;
+  border: 7px solid blueviolet;
   margin: 0 40px;
 }
 
 .headerblock1 {
-  border: 1px solid blueviolet;
+  border: 7px solid fuchsia;
   background-color: #f72f2f;
 }
 
 .headerblock2 {
-  border: 1px solid gold;
-  display: flex;
-  flex-direction: column;
+  border: 9px solid gold;
   
+}
 
+
+.divider {
+  border: 8px solid green;
+  display: flex;
+
+  
 }
 
 .photoposition {
-  border: 2px solid hotpink;
-  
+  border: 9px solid hotpink;
+  position: relative;
+  width: 50%;
+
 }
 
 .imgborder {
-  border-radius: 50%;
-  border: 5px dotted #f72f2f;
+  border-radius: 100px;
+  
+  position: relative;
+  left: 50%;
+  
+}
+
+.h1h2classes {
+  display: block;
+  border: 9px solid gray;
 }
 
 .h1class {
   border: 2px solid teal;
+  display: inline;
+  position: relative;
+  left: 10%;
+  font-size: 25px;
 
 }
 
 .h2class {
   border: 2px solid lawngreen;
+  display: inline;
+  position: relative;
+  right: 10%%;
 
 }
 
 main {
-  border: 1px solid red;
+  border: 5px solid yellowgreen;
   margin: 0 40px;
 }
 
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fontlower {
+  font-size: 17px;
+}
+
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+
+.section {
+  width: 50%;
+}
+
 .colorscetiontitle {
-  color:  #f72f2f;
+  color: #f72f2f;
   font-weight: bold;
 }
 
@@ -113,6 +156,48 @@ main {
 
 
 footer {
-  border: 1px solid red;
-  margin: 0 40px;
+  border: 5px solid red;
+  margin: 0 40px;  
+  height: 100%;
+  
+}
+
+.footer__item1 {
+  display: inline;
+  /* border: 5px solid green; */
+  position: absolute;
+  left: 10%;
+
+  
+
+}
+
+.footer__item2 {
+  display: inline;
+  /* border: 5px solid green; */
+  position: absolute;
+  left: 30%;
+  
+
+}
+
+
+
+
+.footer__signage {
+  
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+  display: inline;
+  
+  position: absolute;
+  right:30%;
+
+}
+
+.bgcolor {
+  background-color: #f72f2f;
 }
